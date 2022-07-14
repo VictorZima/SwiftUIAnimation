@@ -13,6 +13,7 @@
 		2873A67D287B9B6900401F74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2873A67C287B9B6900401F74 /* Preview Assets.xcassets */; };
 		2873A684287BC6CF00401F74 /* Text+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A683287BC6CF00401F74 /* Text+Extention.swift */; };
 		2873A686287D6B5500401F74 /* Animate_Huerotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A685287D6B5500401F74 /* Animate_Huerotation.swift */; };
+		2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A687287FB1E700401F74 /* OffsetAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2873A67C287B9B6900401F74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2873A683287BC6CF00401F74 /* Text+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Extention.swift"; sourceTree = "<group>"; };
 		2873A685287D6B5500401F74 /* Animate_Huerotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Huerotation.swift; sourceTree = "<group>"; };
+		2873A687287FB1E700401F74 /* OffsetAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
+				2873A687287FB1E700401F74 /* OffsetAnimation.swift */,
 				2873A685287D6B5500401F74 /* Animate_Huerotation.swift */,
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				2873A686287D6B5500401F74 /* Animate_Huerotation.swift in Sources */,
 				2873A684287BC6CF00401F74 /* Text+Extention.swift in Sources */,
 				2873A678287B9B6700401F74 /* ContentView.swift in Sources */,
+				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

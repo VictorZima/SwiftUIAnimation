@@ -14,11 +14,13 @@ struct Animate_Huerotation: View {
             TitleText("Animatable Properties")
             SubtitleText("Hue")
             BannerText("Another way to change...", backColor: .blue, textColor: .white)
+            
             Image("ColorWheel")
                 .resizable()
                 .frame(width: 200, height: 200)
                 .hueRotation(Angle.degrees(change ? 170 : 0))
                 .animation(.easeInOut(duration: 3), value: change)
+            
             HStack {
                 RoundedRectangle(cornerRadius: 20)
                     .foregroundColor(.blue)
@@ -31,6 +33,7 @@ struct Animate_Huerotation: View {
                     .hueRotation(Angle.degrees(change ? 170 : 0))
                     .animation(.easeInOut(duration: 3), value: change)
             }
+            
             Button("Change") {
                 self.change.toggle()
             }
