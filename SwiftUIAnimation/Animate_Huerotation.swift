@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Animate_Huerotation: View {
     @State private var change = false
-    
     var body: some View {
         VStack(spacing: 20) {
             TitleText("Animatable Properties")
@@ -26,14 +25,12 @@ struct Animate_Huerotation: View {
                     .padding()
                     .hueRotation(Angle.degrees(change ? 170 : 0))
                     .animation(.easeInOut(duration: 3), value: change)
-                
                 Image("Umbrella")
                     .resizable()
                     .frame(width: 200, height: 200)
                     .hueRotation(Angle.degrees(change ? 170 : 0))
                     .animation(.easeInOut(duration: 3), value: change)
             }
-            
             Button("Change") {
                 self.change.toggle()
             }
