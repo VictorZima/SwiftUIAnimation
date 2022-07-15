@@ -16,6 +16,7 @@
 		2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A687287FB1E700401F74 /* OffsetAnimation.swift */; };
 		2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A689287FBCD100401F74 /* AnimateAlignment.swift */; };
 		2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A68B2880DA6100401F74 /* AnimateGeometryReader.swift */; };
+		289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBBC2880E449006A4897 /* AnimateOpacity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		2873A687287FB1E700401F74 /* OffsetAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAnimation.swift; sourceTree = "<group>"; };
 		2873A689287FBCD100401F74 /* AnimateAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateAlignment.swift; sourceTree = "<group>"; };
 		2873A68B2880DA6100401F74 /* AnimateGeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateGeometryReader.swift; sourceTree = "<group>"; };
+		289CFBBC2880E449006A4897 /* AnimateOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateOpacity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				2873A687287FB1E700401F74 /* OffsetAnimation.swift */,
 				2873A689287FBCD100401F74 /* AnimateAlignment.swift */,
 				2873A68B2880DA6100401F74 /* AnimateGeometryReader.swift */,
+				289CFBBC2880E449006A4897 /* AnimateOpacity.swift */,
 				2873A685287D6B5500401F74 /* Animate_Huerotation.swift */,
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
 				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
+				289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
