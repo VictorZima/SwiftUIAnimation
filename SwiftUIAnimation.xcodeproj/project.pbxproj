@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */; };
 		2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */; };
 		2873A678287B9B6700401F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A677287B9B6700401F74 /* ContentView.swift */; };
 		2873A67A287B9B6900401F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2873A679287B9B6900401F74 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeFrame.swift; sourceTree = "<group>"; };
 		2873A672287B9B6700401F74 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		2873A677287B9B6700401F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				2873A685287D6B5500401F74 /* Animate_Huerotation.swift */,
 				289CFBBE288103AF006A4897 /* AnimateRotationEffect.swift */,
 				289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */,
+				2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */,
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
@@ -167,6 +170,7 @@
 				2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */,
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
 				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
+				2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */,
 				289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */,
 				289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
