@@ -11,6 +11,7 @@
 		286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */; };
 		286D5BF92882319700736013 /* AnimateRoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BF82882319700736013 /* AnimateRoundedCorners.swift */; };
 		286D5BFB288233CD00736013 /* AnimateTextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BFA288233CD00736013 /* AnimateTextSize.swift */; };
+		286D5BFD2882355A00736013 /* AnimateTextSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */; };
 		2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */; };
 		2873A678287B9B6700401F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A677287B9B6700401F74 /* ContentView.swift */; };
 		2873A67A287B9B6900401F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2873A679287B9B6900401F74 /* Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateScaleEffectAnchors.swift; sourceTree = "<group>"; };
 		286D5BF82882319700736013 /* AnimateRoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRoundedCorners.swift; sourceTree = "<group>"; };
 		286D5BFA288233CD00736013 /* AnimateTextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTextSize.swift; sourceTree = "<group>"; };
+		286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTextSizeScaleEffect.swift; sourceTree = "<group>"; };
 		2873A672287B9B6700401F74 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		2873A677287B9B6700401F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				286D5BF82882319700736013 /* AnimateRoundedCorners.swift */,
 				286D5BFA288233CD00736013 /* AnimateTextSize.swift */,
+				286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -190,6 +193,7 @@
 				289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
 				289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */,
+				286D5BFD2882355A00736013 /* AnimateTextSizeScaleEffect.swift in Sources */,
 				286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
