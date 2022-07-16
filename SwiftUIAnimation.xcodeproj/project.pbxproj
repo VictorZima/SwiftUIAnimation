@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D9EFF2882613500D17F13 /* AnimateRectangle.swift */; };
 		2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */; };
 		286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */; };
 		286D5BF92882319700736013 /* AnimateRoundedCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BF82882319700736013 /* AnimateRoundedCorners.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		284D9EFF2882613500D17F13 /* AnimateRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRectangle.swift; sourceTree = "<group>"; };
 		2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeFrame.swift; sourceTree = "<group>"; };
 		286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateScaleEffectAnchors.swift; sourceTree = "<group>"; };
 		286D5BF82882319700736013 /* AnimateRoundedCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRoundedCorners.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				286D5BFA288233CD00736013 /* AnimateTextSize.swift */,
 				286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */,
 				286D5BFE2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift */,
+				284D9EFF2882613500D17F13 /* AnimateRectangle.swift */,
 				286D5C0028825CEA00736013 /* AnimateTrim.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
@@ -188,6 +191,7 @@
 				2873A686287D6B5500401F74 /* Animate_Huerotation.swift in Sources */,
 				286D5C0128825CEA00736013 /* AnimateTrim.swift in Sources */,
 				2873A684287BC6CF00401F74 /* Text+Extention.swift in Sources */,
+				284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */,
 				28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */,
 				2873A678287B9B6700401F74 /* ContentView.swift in Sources */,
 				2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */,
