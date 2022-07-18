@@ -9,31 +9,32 @@ import SwiftUI
 
 struct AnimateRectangle: View {
     @State private var change = false
-    @State private var angle = 90
+    
     var body: some View {
         VStack(spacing: 20) {
             TitleText("Putting It All Together")
             SubtitleText("End Result")
             BannerText("This is the final animation that you will be building.", backColor: .red, textColor: .white)
             
-            Spacer()
-            
-            ZStack {
+            GeometryReader { gr in
                 ForEach(0..<4) { i in
-                    Rectangle()
-                        .foregroundColor(change ? .red : .orange)
-                        .frame(width: 100, height: 50)
-                        .rotationEffect(Angle.degrees(change ? Double((90 * i)) : Double((0 * i))), anchor: .bottomLeading)
+                        Rectangle()
+                            .foregroundColor(change ? .red : .orange)
+                            .padding(3)
+                            .opacity(change ? 1 : 0)
+                            .frame(width: 100, height: 50)
+                            .rotationEffect(Angle.degrees(Double(90 * i)), anchor: .bottomLeading)
+                            .position(x: gr.size.width / 2 + 50, y: gr.size.height / 2 - 50)
+                            .animation(.easeInOut, value: change)
                 }
             }
-            .animation(.easeInOut(duration: 1), value: change)
-            
-            Spacer()
-            
+            .border(Color.gray)
+            .rotationEffect(Angle.degrees(change ? -180 : 0), anchor: .center)
+            .animation(.easeInOut, value: change)
+
             Button("Change") {
                 self.change.toggle()
             }
-            
         }
         .font(.title)
     }
