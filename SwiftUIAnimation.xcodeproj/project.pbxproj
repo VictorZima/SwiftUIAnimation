@@ -31,6 +31,7 @@
 		28801193288646850055CD0C /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28801192288646850055CD0C /* TriggerToggle.swift */; };
 		2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */; };
 		288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */; };
+		288717122888D51C0060AA1D /* TriggerGestureTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288717112888D51B0060AA1D /* TriggerGestureTap.swift */; };
 		2890D9EC2884F91D0089BA20 /* TriggerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890D9EB2884F91D0089BA20 /* TriggerButton.swift */; };
 		289B5367288500AB003AE3D7 /* TriggerSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */; };
 		289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBBC2880E449006A4897 /* AnimateOpacity.swift */; };
@@ -65,6 +66,7 @@
 		28801192288646850055CD0C /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
 		2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureDrag.swift; sourceTree = "<group>"; };
 		2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureLongPress.swift; sourceTree = "<group>"; };
+		288717112888D51B0060AA1D /* TriggerGestureTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureTap.swift; sourceTree = "<group>"; };
 		2890D9EB2884F91D0089BA20 /* TriggerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerButton.swift; sourceTree = "<group>"; };
 		289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSegmentedControl.swift; sourceTree = "<group>"; };
 		289CFBBC2880E449006A4897 /* AnimateOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateOpacity.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */,
 				2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */,
 				2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */,
+				288717112888D51B0060AA1D /* TriggerGestureTap.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2873A686287D6B5500401F74 /* Animate_Huerotation.swift in Sources */,
+				288717122888D51C0060AA1D /* TriggerGestureTap.swift in Sources */,
 				2880119128863FE40055CD0C /* TriggerStepper.swift in Sources */,
 				286D5C0128825CEA00736013 /* AnimateTrim.swift in Sources */,
 				285817BB2887979500DB0187 /* TriggerOnDisappear.swift in Sources */,
