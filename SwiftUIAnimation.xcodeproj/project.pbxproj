@@ -29,6 +29,7 @@
 		2880118F28863E180055CD0C /* TriggerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880118E28863E180055CD0C /* TriggerSlider.swift */; };
 		2880119128863FE40055CD0C /* TriggerStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880119028863FE40055CD0C /* TriggerStepper.swift */; };
 		28801193288646850055CD0C /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28801192288646850055CD0C /* TriggerToggle.swift */; };
+		2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */; };
 		2890D9EC2884F91D0089BA20 /* TriggerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890D9EB2884F91D0089BA20 /* TriggerButton.swift */; };
 		289B5367288500AB003AE3D7 /* TriggerSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */; };
 		289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBBC2880E449006A4897 /* AnimateOpacity.swift */; };
@@ -61,6 +62,7 @@
 		2880118E28863E180055CD0C /* TriggerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSlider.swift; sourceTree = "<group>"; };
 		2880119028863FE40055CD0C /* TriggerStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerStepper.swift; sourceTree = "<group>"; };
 		28801192288646850055CD0C /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
+		2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureDrag.swift; sourceTree = "<group>"; };
 		2890D9EB2884F91D0089BA20 /* TriggerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerButton.swift; sourceTree = "<group>"; };
 		289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSegmentedControl.swift; sourceTree = "<group>"; };
 		289CFBBC2880E449006A4897 /* AnimateOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateOpacity.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				286D5C0028825CEA00736013 /* AnimateTrim.swift */,
 				2890D9EB2884F91D0089BA20 /* TriggerButton.swift */,
 				289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */,
+				2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -229,6 +232,7 @@
 				289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */,
 				289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */,
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
+				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
