@@ -32,6 +32,7 @@
 		2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */; };
 		288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */; };
 		288717122888D51C0060AA1D /* TriggerGestureTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288717112888D51B0060AA1D /* TriggerGestureTap.swift */; };
+		288717142888D74E0060AA1D /* TriggerGestureMagnification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288717132888D74E0060AA1D /* TriggerGestureMagnification.swift */; };
 		2890D9EC2884F91D0089BA20 /* TriggerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890D9EB2884F91D0089BA20 /* TriggerButton.swift */; };
 		289B5367288500AB003AE3D7 /* TriggerSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */; };
 		289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBBC2880E449006A4897 /* AnimateOpacity.swift */; };
@@ -67,6 +68,7 @@
 		2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureDrag.swift; sourceTree = "<group>"; };
 		2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureLongPress.swift; sourceTree = "<group>"; };
 		288717112888D51B0060AA1D /* TriggerGestureTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureTap.swift; sourceTree = "<group>"; };
+		288717132888D74E0060AA1D /* TriggerGestureMagnification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureMagnification.swift; sourceTree = "<group>"; };
 		2890D9EB2884F91D0089BA20 /* TriggerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerButton.swift; sourceTree = "<group>"; };
 		289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSegmentedControl.swift; sourceTree = "<group>"; };
 		289CFBBC2880E449006A4897 /* AnimateOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateOpacity.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */,
 				2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */,
 				288717112888D51B0060AA1D /* TriggerGestureTap.swift */,
+				288717132888D74E0060AA1D /* TriggerGestureMagnification.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -228,6 +231,7 @@
 				284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */,
 				289B5367288500AB003AE3D7 /* TriggerSegmentedControl.swift in Sources */,
 				28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */,
+				288717142888D74E0060AA1D /* TriggerGestureMagnification.swift in Sources */,
 				2873A678287B9B6700401F74 /* ContentView.swift in Sources */,
 				2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */,
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
