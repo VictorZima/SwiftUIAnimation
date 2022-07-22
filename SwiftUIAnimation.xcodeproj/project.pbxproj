@@ -45,6 +45,7 @@
 		289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */; };
 		28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */; };
 		28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF665288B5DBB00A88420 /* DelayAnimations.swift */; };
+		28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,6 +88,7 @@
 		289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRotationAnchor.swift; sourceTree = "<group>"; };
 		28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeScaleEffect.swift; sourceTree = "<group>"; };
 		28FDF665288B5DBB00A88420 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
+		28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelaySequenceAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				28871735288B51970060AA1D /* DurationParameter.swift */,
 				28871737288B5B370060AA1D /* DurationLongExample.swift */,
 				28FDF665288B5DBB00A88420 /* DelayAnimations.swift */,
+				28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -272,6 +275,7 @@
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
+				28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */,
 				289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */,
 				286D5BFD2882355A00736013 /* AnimateTextSizeScaleEffect.swift in Sources */,
 				286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */,
