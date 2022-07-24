@@ -11,6 +11,7 @@
 		284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */; };
 		284E2BED288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */; };
 		284E2BEF288CD7F000C108D5 /* RepeatingRepeatForever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEE288CD7F000C108D5 /* RepeatingRepeatForever.swift */; };
+		284E2BF1288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */; };
 		2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */; };
 		285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817B82886557400DB0187 /* TriggerOnAppear.swift */; };
 		285817BB2887979500DB0187 /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817BA2887979500DB0187 /* TriggerOnDisappear.swift */; };
@@ -56,6 +57,7 @@
 		284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCount.swift; sourceTree = "<group>"; };
 		284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCountAutoReverses.swift; sourceTree = "<group>"; };
 		284E2BEE288CD7F000C108D5 /* RepeatingRepeatForever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatForever.swift; sourceTree = "<group>"; };
+		284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatForeverAutoReverses.swift; sourceTree = "<group>"; };
 		2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeFrame.swift; sourceTree = "<group>"; };
 		285817B82886557400DB0187 /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
 		285817BA2887979500DB0187 /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
@@ -167,6 +169,7 @@
 				284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */,
 				284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */,
 				284E2BEE288CD7F000C108D5 /* RepeatingRepeatForever.swift */,
+				284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -278,6 +281,7 @@
 				286D5BFB288233CD00736013 /* AnimateTextSize.swift in Sources */,
 				289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */,
 				28871738288B5B370060AA1D /* DurationLongExample.swift in Sources */,
+				284E2BF1288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift in Sources */,
 				289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */,
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
 				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
