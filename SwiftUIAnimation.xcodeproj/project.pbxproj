@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D9EFF2882613500D17F13 /* AnimateRectangle.swift */; };
+		284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */; };
 		2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */; };
 		285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817B82886557400DB0187 /* TriggerOnAppear.swift */; };
 		285817BB2887979500DB0187 /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817BA2887979500DB0187 /* TriggerOnDisappear.swift */; };
@@ -50,6 +51,7 @@
 
 /* Begin PBXFileReference section */
 		284D9EFF2882613500D17F13 /* AnimateRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRectangle.swift; sourceTree = "<group>"; };
+		284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCount.swift; sourceTree = "<group>"; };
 		2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeFrame.swift; sourceTree = "<group>"; };
 		285817B82886557400DB0187 /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
 		285817BA2887979500DB0187 /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				28871737288B5B370060AA1D /* DurationLongExample.swift */,
 				28FDF665288B5DBB00A88420 /* DelayAnimations.swift */,
 				28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */,
+				284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -272,6 +275,7 @@
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
 				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
+				284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */,
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
