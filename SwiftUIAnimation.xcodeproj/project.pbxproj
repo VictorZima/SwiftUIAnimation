@@ -35,6 +35,7 @@
 		2880118F28863E180055CD0C /* TriggerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880118E28863E180055CD0C /* TriggerSlider.swift */; };
 		2880119128863FE40055CD0C /* TriggerStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880119028863FE40055CD0C /* TriggerStepper.swift */; };
 		28801193288646850055CD0C /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28801192288646850055CD0C /* TriggerToggle.swift */; };
+		28855E8E288E3E8200DEE800 /* ScopeParentAndChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */; };
 		2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */; };
 		288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */; };
 		288717122888D51C0060AA1D /* TriggerGestureTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288717112888D51B0060AA1D /* TriggerGestureTap.swift */; };
@@ -84,6 +85,7 @@
 		2880118E28863E180055CD0C /* TriggerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSlider.swift; sourceTree = "<group>"; };
 		2880119028863FE40055CD0C /* TriggerStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerStepper.swift; sourceTree = "<group>"; };
 		28801192288646850055CD0C /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
+		28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeParentAndChildren.swift; sourceTree = "<group>"; };
 		2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureDrag.swift; sourceTree = "<group>"; };
 		2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureLongPress.swift; sourceTree = "<group>"; };
 		288717112888D51B0060AA1D /* TriggerGestureTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureTap.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 				284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */,
 				284E2BF2288CDA9000C108D5 /* RepeatingWithDelay.swift */,
 				28778672288E3A430089D12A /* ScopeSequenceOnSingleView.swift */,
+				28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -299,6 +302,7 @@
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
+				28855E8E288E3E8200DEE800 /* ScopeParentAndChildren.swift in Sources */,
 				28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */,
 				289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */,
 				286D5BFD2882355A00736013 /* AnimateTextSizeScaleEffect.swift in Sources */,
