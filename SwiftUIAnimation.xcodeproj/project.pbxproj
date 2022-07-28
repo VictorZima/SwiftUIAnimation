@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		283FCB4D28921E56005BD689 /* ScopeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */; };
+		283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */; };
 		284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D9EFF2882613500D17F13 /* AnimateRectangle.swift */; };
 		284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */; };
 		284E2BED288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */; };
@@ -61,6 +62,7 @@
 
 /* Begin PBXFileReference section */
 		283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimation.swift; sourceTree = "<group>"; };
+		283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationCustomAnimation.swift; sourceTree = "<group>"; };
 		284D9EFF2882613500D17F13 /* AnimateRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRectangle.swift; sourceTree = "<group>"; };
 		284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCount.swift; sourceTree = "<group>"; };
 		284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCountAutoReverses.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				286321162892142100BEFA22 /* ScopeDifferentAnimations.swift */,
 				28632118289219DE00BEFA22 /* ScopeNoAnimation.swift */,
 				283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */,
+				283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -295,6 +298,7 @@
 				2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */,
 				28632119289219DE00BEFA22 /* ScopeNoAnimation.swift in Sources */,
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
+				283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */,
 				28871734288A35FE0060AA1D /* TriggersShowPopup.swift in Sources */,
 				288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */,
 				284E2BF3288CDA9000C108D5 /* RepeatingWithDelay.swift in Sources */,
