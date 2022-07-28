@@ -56,6 +56,7 @@
 		289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBBE288103AF006A4897 /* AnimateRotationEffect.swift */; };
 		289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */; };
 		289EEC6C289225410083760D /* ScopeWithAnimationOnSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */; };
+		289EEC6E289230A40083760D /* ScopeWithAnimationMultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */; };
 		28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */; };
 		28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF665288B5DBB00A88420 /* DelayAnimations.swift */; };
 		28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */; };
@@ -112,6 +113,7 @@
 		289CFBBE288103AF006A4897 /* AnimateRotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRotationEffect.swift; sourceTree = "<group>"; };
 		289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRotationAnchor.swift; sourceTree = "<group>"; };
 		289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationOnSingleView.swift; sourceTree = "<group>"; };
+		289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationMultipleViews.swift; sourceTree = "<group>"; };
 		28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeScaleEffect.swift; sourceTree = "<group>"; };
 		28FDF665288B5DBB00A88420 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
 		28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelaySequenceAnimations.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */,
 				283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */,
 				289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */,
+				289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -331,6 +334,7 @@
 				289EEC6C289225410083760D /* ScopeWithAnimationOnSingleView.swift in Sources */,
 				286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */,
 				286321172892142100BEFA22 /* ScopeDifferentAnimations.swift in Sources */,
+				289EEC6E289230A40083760D /* ScopeWithAnimationMultipleViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
