@@ -27,6 +27,7 @@
 		286D5BFD2882355A00736013 /* AnimateTextSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */; };
 		286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5BFE2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift */; };
 		286D5C0128825CEA00736013 /* AnimateTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5C0028825CEA00736013 /* AnimateTrim.swift */; };
+		2873901D289494DB00F24BEA /* SpeedIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873901C289494DB00F24BEA /* SpeedIntro.swift */; };
 		2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */; };
 		2873A678287B9B6700401F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A677287B9B6700401F74 /* ContentView.swift */; };
 		2873A67A287B9B6900401F74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2873A679287B9B6900401F74 /* Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTextSizeScaleEffect.swift; sourceTree = "<group>"; };
 		286D5BFE2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTextSizeScaleEffectSolution.swift; sourceTree = "<group>"; };
 		286D5C0028825CEA00736013 /* AnimateTrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTrim.swift; sourceTree = "<group>"; };
+		2873901C289494DB00F24BEA /* SpeedIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedIntro.swift; sourceTree = "<group>"; };
 		2873A672287B9B6700401F74 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		2873A677287B9B6700401F74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 				289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */,
 				289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */,
 				289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */,
+				2873901C289494DB00F24BEA /* SpeedIntro.swift */,
 				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
@@ -311,6 +314,7 @@
 				288717142888D74E0060AA1D /* TriggerGestureMagnification.swift in Sources */,
 				2873A678287B9B6700401F74 /* ContentView.swift in Sources */,
 				2873A68C2880DA6100401F74 /* AnimateGeometryReader.swift in Sources */,
+				2873901D289494DB00F24BEA /* SpeedIntro.swift in Sources */,
 				28632119289219DE00BEFA22 /* ScopeNoAnimation.swift in Sources */,
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
 				283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */,
