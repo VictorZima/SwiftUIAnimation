@@ -40,6 +40,7 @@
 		2880118F28863E180055CD0C /* TriggerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880118E28863E180055CD0C /* TriggerSlider.swift */; };
 		2880119128863FE40055CD0C /* TriggerStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880119028863FE40055CD0C /* TriggerStepper.swift */; };
 		28801193288646850055CD0C /* TriggerToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28801192288646850055CD0C /* TriggerToggle.swift */; };
+		2880B9E328936479006AE531 /* ScopeNoWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */; };
 		28855E8E288E3E8200DEE800 /* ScopeParentAndChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */; };
 		2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */; };
 		288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */; };
@@ -98,6 +99,7 @@
 		2880118E28863E180055CD0C /* TriggerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerSlider.swift; sourceTree = "<group>"; };
 		2880119028863FE40055CD0C /* TriggerStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerStepper.swift; sourceTree = "<group>"; };
 		28801192288646850055CD0C /* TriggerToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerToggle.swift; sourceTree = "<group>"; };
+		2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeNoWithAnimation.swift; sourceTree = "<group>"; };
 		28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeParentAndChildren.swift; sourceTree = "<group>"; };
 		2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureDrag.swift; sourceTree = "<group>"; };
 		2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerGestureLongPress.swift; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */,
 				289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */,
 				289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */,
+				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
@@ -324,6 +327,7 @@
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
 				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
+				2880B9E328936479006AE531 /* ScopeNoWithAnimation.swift in Sources */,
 				284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */,
 				284E2BEF288CD7F000C108D5 /* RepeatingRepeatForever.swift in Sources */,
 				28778673288E3A430089D12A /* ScopeSequenceOnSingleView.swift in Sources */,
