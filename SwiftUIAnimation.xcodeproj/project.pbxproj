@@ -65,6 +65,7 @@
 		28BC1F0B28949AC4002DA52D /* ValueIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */; };
 		28BC1F0D28949CE8002DA52D /* ValueShowHideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */; };
 		28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */; };
+		28D832012895220C0090E4CF /* SpringIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D832002895220C0090E4CF /* SpringIntro.swift */; };
 		28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF665288B5DBB00A88420 /* DelayAnimations.swift */; };
 		28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */; };
 /* End PBXBuildFile section */
@@ -129,6 +130,7 @@
 		28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueIntroduction.swift; sourceTree = "<group>"; };
 		28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueShowHideExample.swift; sourceTree = "<group>"; };
 		28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeScaleEffect.swift; sourceTree = "<group>"; };
+		28D832002895220C0090E4CF /* SpringIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringIntro.swift; sourceTree = "<group>"; };
 		28FDF665288B5DBB00A88420 /* DelayAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelayAnimations.swift; sourceTree = "<group>"; };
 		28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelaySequenceAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,6 +220,7 @@
 				2873901C289494DB00F24BEA /* SpeedIntro.swift */,
 				28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */,
 				28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */,
+				28D832002895220C0090E4CF /* SpringIntro.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
 				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
@@ -355,6 +358,7 @@
 				289EEC70289359070083760D /* ScopeWithAnimationSequencing.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
+				28D832012895220C0090E4CF /* SpringIntro.swift in Sources */,
 				28855E8E288E3E8200DEE800 /* ScopeParentAndChildren.swift in Sources */,
 				28FDF668288B624C00A88420 /* DelaySequenceAnimations.swift in Sources */,
 				289CFBBD2880E449006A4897 /* AnimateOpacity.swift in Sources */,
