@@ -30,6 +30,7 @@
 		286D5C0128825CEA00736013 /* AnimateTrim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D5C0028825CEA00736013 /* AnimateTrim.swift */; };
 		286DC4C92895F4E500BA3553 /* SpringDampen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC4C82895F4E500BA3553 /* SpringDampen.swift */; };
 		286DC4CB2895F74E00BA3553 /* SpringResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC4CA2895F74E00BA3553 /* SpringResponse.swift */; };
+		286DC4CD289607AD00BA3553 /* SpringBlendDuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */; };
 		2873901D289494DB00F24BEA /* SpeedIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873901C289494DB00F24BEA /* SpeedIntro.swift */; };
 		2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */; };
 		2873A678287B9B6700401F74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2873A677287B9B6700401F74 /* ContentView.swift */; };
@@ -96,6 +97,7 @@
 		286D5C0028825CEA00736013 /* AnimateTrim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTrim.swift; sourceTree = "<group>"; };
 		286DC4C82895F4E500BA3553 /* SpringDampen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringDampen.swift; sourceTree = "<group>"; };
 		286DC4CA2895F74E00BA3553 /* SpringResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringResponse.swift; sourceTree = "<group>"; };
+		286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringBlendDuration.swift; sourceTree = "<group>"; };
 		2873901C289494DB00F24BEA /* SpeedIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedIntro.swift; sourceTree = "<group>"; };
 		2873A672287B9B6700401F74 /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
@@ -227,6 +229,7 @@
 				28D832002895220C0090E4CF /* SpringIntro.swift */,
 				286DC4C82895F4E500BA3553 /* SpringDampen.swift */,
 				286DC4CA2895F74E00BA3553 /* SpringResponse.swift */,
+				286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
 				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
@@ -344,6 +347,7 @@
 				284E2BF3288CDA9000C108D5 /* RepeatingWithDelay.swift in Sources */,
 				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
 				2880118F28863E180055CD0C /* TriggerSlider.swift in Sources */,
+				286DC4CD289607AD00BA3553 /* SpringBlendDuration.swift in Sources */,
 				288717182888F0FA0060AA1D /* TriggerScrollLocation.swift in Sources */,
 				2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */,
 				2880B9E528936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift in Sources */,
