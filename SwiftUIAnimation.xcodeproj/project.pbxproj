@@ -65,6 +65,7 @@
 		289EEC6C289225410083760D /* ScopeWithAnimationOnSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */; };
 		289EEC6E289230A40083760D /* ScopeWithAnimationMultipleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */; };
 		289EEC70289359070083760D /* ScopeWithAnimationSequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */; };
+		28B0B4B32897561400A99245 /* InteractiveComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0B4B22897561400A99245 /* InteractiveComparison.swift */; };
 		28BC1F0B28949AC4002DA52D /* ValueIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */; };
 		28BC1F0D28949CE8002DA52D /* ValueShowHideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */; };
 		28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */; };
@@ -133,6 +134,7 @@
 		289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationOnSingleView.swift; sourceTree = "<group>"; };
 		289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationMultipleViews.swift; sourceTree = "<group>"; };
 		289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationSequencing.swift; sourceTree = "<group>"; };
+		28B0B4B22897561400A99245 /* InteractiveComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveComparison.swift; sourceTree = "<group>"; };
 		28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueIntroduction.swift; sourceTree = "<group>"; };
 		28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueShowHideExample.swift; sourceTree = "<group>"; };
 		28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeScaleEffect.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 				286DC4C82895F4E500BA3553 /* SpringDampen.swift */,
 				286DC4CA2895F74E00BA3553 /* SpringResponse.swift */,
 				286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */,
+				28B0B4B22897561400A99245 /* InteractiveComparison.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
 				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
@@ -344,6 +347,7 @@
 				28871734288A35FE0060AA1D /* TriggersShowPopup.swift in Sources */,
 				286DC4C92895F4E500BA3553 /* SpringDampen.swift in Sources */,
 				288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */,
+				28B0B4B32897561400A99245 /* InteractiveComparison.swift in Sources */,
 				284E2BF3288CDA9000C108D5 /* RepeatingWithDelay.swift in Sources */,
 				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
 				2880118F28863E180055CD0C /* TriggerSlider.swift in Sources */,
