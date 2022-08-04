@@ -78,7 +78,10 @@ struct InterpolartingStiffness: View {
                             .animation(.interpolatingSpring(stiffness: 200, damping: 1), value: change)
                     }
                 }
+                .font(.system(size: 20))
+                .foregroundColor(.white)
             }
+            .font(.title)
         }
     }
 }
