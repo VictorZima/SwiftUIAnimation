@@ -19,6 +19,7 @@
 		285551B32894A7F00028CB07 /* TernaryCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285551B22894A7F00028CB07 /* TernaryCondition.swift */; };
 		28555B00289B584E00E5EB2D /* InterpolartingStiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */; };
 		28555B02289B5B0C00E5EB2D /* InterpolatingDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */; };
+		28555B04289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */; };
 		285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817B82886557400DB0187 /* TriggerOnAppear.swift */; };
 		285817BB2887979500DB0187 /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817BA2887979500DB0187 /* TriggerOnDisappear.swift */; };
 		2863211528920FAC00BEFA22 /* ScopeChangeSizeInParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */; };
@@ -90,6 +91,7 @@
 		285551B22894A7F00028CB07 /* TernaryCondition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryCondition.swift; sourceTree = "<group>"; };
 		28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolartingStiffness.swift; sourceTree = "<group>"; };
 		28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingDamping.swift; sourceTree = "<group>"; };
+		28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingCompareStiffnessDamping.swift; sourceTree = "<group>"; };
 		285817B82886557400DB0187 /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
 		285817BA2887979500DB0187 /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
 		2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeChangeSizeInParent.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 				28B0B4B4289758C800A99245 /* InteractivePopuo.swift */,
 				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
 				28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */,
+				28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
 				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
 				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
@@ -368,6 +371,7 @@
 				2880B9E528936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift in Sources */,
 				28555B00289B584E00E5EB2D /* InterpolartingStiffness.swift in Sources */,
 				286D5BF92882319700736013 /* AnimateRoundedCorners.swift in Sources */,
+				28555B04289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift in Sources */,
 				286D5BFB288233CD00736013 /* AnimateTextSize.swift in Sources */,
 				28BC1F0D28949CE8002DA52D /* ValueShowHideExample.swift in Sources */,
 				289CFBC12881074C006A4897 /* AnimateRotationAnchor.swift in Sources */,
