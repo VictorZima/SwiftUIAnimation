@@ -72,6 +72,7 @@
 		28B0B4B5289758C800A99245 /* InteractivePopuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0B4B4289758C800A99245 /* InteractivePopuo.swift */; };
 		28B9330B289C97DD006F7268 /* InterpolatingMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330A289C97DD006F7268 /* InterpolatingMass.swift */; };
 		28B9330D289C99EA006F7268 /* InterpolatingInitialVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */; };
+		28B9330F289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */; };
 		28BC1F0B28949AC4002DA52D /* ValueIntroduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */; };
 		28BC1F0D28949CE8002DA52D /* ValueShowHideExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */; };
 		28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */; };
@@ -147,6 +148,7 @@
 		28B0B4B4289758C800A99245 /* InteractivePopuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopuo.swift; sourceTree = "<group>"; };
 		28B9330A289C97DD006F7268 /* InterpolatingMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingMass.swift; sourceTree = "<group>"; };
 		28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocity.swift; sourceTree = "<group>"; };
+		28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocityNegative.swift; sourceTree = "<group>"; };
 		28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueIntroduction.swift; sourceTree = "<group>"; };
 		28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueShowHideExample.swift; sourceTree = "<group>"; };
 		28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateSizeScaleEffect.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
 				28B9330A289C97DD006F7268 /* InterpolatingMass.swift */,
 				28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */,
+				28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */,
 				28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */,
 				28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
@@ -391,6 +394,7 @@
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
 				2880B9E328936479006AE531 /* ScopeNoWithAnimation.swift in Sources */,
 				284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */,
+				28B9330F289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift in Sources */,
 				284E2BEF288CD7F000C108D5 /* RepeatingRepeatForever.swift in Sources */,
 				28778673288E3A430089D12A /* ScopeSequenceOnSingleView.swift in Sources */,
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
