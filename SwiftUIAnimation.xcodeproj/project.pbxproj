@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
+		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283FCB4D28921E56005BD689 /* ScopeWithAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */; };
 		283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */; };
 		284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D9EFF2882613500D17F13 /* AnimateRectangle.swift */; };
@@ -86,6 +87,7 @@
 
 /* Begin PBXFileReference section */
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
+		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimation.swift; sourceTree = "<group>"; };
 		283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationCustomAnimation.swift; sourceTree = "<group>"; };
 		284D9EFF2882613500D17F13 /* AnimateRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRectangle.swift; sourceTree = "<group>"; };
@@ -257,6 +259,7 @@
 				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
 				2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */,
 				283441D9289F595000923E6C /* SpringOptionsSpeed.swift */,
+				283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */,
 				2856F5B3289F4A9400F20686 /* SpringOptionsDelay.swift */,
 				28B9330A289C97DD006F7268 /* InterpolatingMass.swift */,
 				28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */,
@@ -375,6 +378,7 @@
 				2873901D289494DB00F24BEA /* SpeedIntro.swift in Sources */,
 				28632119289219DE00BEFA22 /* ScopeNoAnimation.swift in Sources */,
 				2873A68A287FBCD100401F74 /* AnimateAlignment.swift in Sources */,
+				283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */,
 				283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */,
 				28871734288A35FE0060AA1D /* TriggersShowPopup.swift in Sources */,
 				286DC4C92895F4E500BA3553 /* SpringDampen.swift in Sources */,
