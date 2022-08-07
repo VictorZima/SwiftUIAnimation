@@ -20,6 +20,7 @@
 		28555B00289B584E00E5EB2D /* InterpolartingStiffness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */; };
 		28555B02289B5B0C00E5EB2D /* InterpolatingDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */; };
 		28555B04289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */; };
+		2856F5B2289F46FE00F20686 /* InterpolatingOverlapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */; };
 		285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817B82886557400DB0187 /* TriggerOnAppear.swift */; };
 		285817BB2887979500DB0187 /* TriggerOnDisappear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285817BA2887979500DB0187 /* TriggerOnDisappear.swift */; };
 		2863211528920FAC00BEFA22 /* ScopeChangeSizeInParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */; };
@@ -95,6 +96,7 @@
 		28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolartingStiffness.swift; sourceTree = "<group>"; };
 		28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingDamping.swift; sourceTree = "<group>"; };
 		28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingCompareStiffnessDamping.swift; sourceTree = "<group>"; };
+		2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingOverlapping.swift; sourceTree = "<group>"; };
 		285817B82886557400DB0187 /* TriggerOnAppear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnAppear.swift; sourceTree = "<group>"; };
 		285817BA2887979500DB0187 /* TriggerOnDisappear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerOnDisappear.swift; sourceTree = "<group>"; };
 		2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeChangeSizeInParent.swift; sourceTree = "<group>"; };
@@ -249,6 +251,7 @@
 				28B0B4B22897561400A99245 /* InteractiveComparison.swift */,
 				28B0B4B4289758C800A99245 /* InteractivePopuo.swift */,
 				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
+				2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */,
 				28B9330A289C97DD006F7268 /* InterpolatingMass.swift */,
 				28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */,
 				28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */,
@@ -410,6 +413,7 @@
 				289EEC6C289225410083760D /* ScopeWithAnimationOnSingleView.swift in Sources */,
 				286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */,
 				286321172892142100BEFA22 /* ScopeDifferentAnimations.swift in Sources */,
+				2856F5B2289F46FE00F20686 /* InterpolatingOverlapping.swift in Sources */,
 				289EEC6E289230A40083760D /* ScopeWithAnimationMultipleViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
