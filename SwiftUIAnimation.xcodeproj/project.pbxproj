@@ -188,6 +188,140 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		284C5BAA28A0A574008AA9AF /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				283441DD289F9F4800923E6C /* TransitionIntro.swift */,
+				284C5B9E28A0764E008AA9AF /* TransitionMove.swift */,
+				284C5BA028A077B7008AA9AF /* TransitionOffset.swift */,
+				284C5BA228A07839008AA9AF /* TransitionOpacity.swift */,
+				284C5BA428A078D9008AA9AF /* TransitionScale.swift */,
+				284C5BA628A0794F008AA9AF /* TransitionSlide.swift */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		284C5BAB28A0A5B5008AA9AF /* Trigger */ = {
+			isa = PBXGroup;
+			children = (
+				289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */,
+				2890D9EB2884F91D0089BA20 /* TriggerButton.swift */,
+				2880118E28863E180055CD0C /* TriggerSlider.swift */,
+				285817BA2887979500DB0187 /* TriggerOnDisappear.swift */,
+				285817B82886557400DB0187 /* TriggerOnAppear.swift */,
+				2880119028863FE40055CD0C /* TriggerStepper.swift */,
+				28801192288646850055CD0C /* TriggerToggle.swift */,
+				2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */,
+				2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */,
+				288717112888D51B0060AA1D /* TriggerGestureTap.swift */,
+				288717132888D74E0060AA1D /* TriggerGestureMagnification.swift */,
+				288717152888DD7B0060AA1D /* TriggerGestureRotation.swift */,
+				288717172888F0FA0060AA1D /* TriggerScrollLocation.swift */,
+				28871733288A35FE0060AA1D /* TriggersShowPopup.swift */,
+			);
+			path = Trigger;
+			sourceTree = "<group>";
+		};
+		284C5BAC28A0A5F5008AA9AF /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				28D832002895220C0090E4CF /* SpringIntro.swift */,
+				286DC4C82895F4E500BA3553 /* SpringDampen.swift */,
+				286DC4CA2895F74E00BA3553 /* SpringResponse.swift */,
+				286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */,
+				283441D9289F595000923E6C /* SpringOptionsSpeed.swift */,
+				283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */,
+				2856F5B3289F4A9400F20686 /* SpringOptionsDelay.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		284C5BAD28A0A629008AA9AF /* Interpolating */ = {
+			isa = PBXGroup;
+			children = (
+				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
+				2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */,
+				28B9330A289C97DD006F7268 /* InterpolatingMass.swift */,
+				28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */,
+				28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */,
+				28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */,
+				28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */,
+			);
+			path = Interpolating;
+			sourceTree = "<group>";
+		};
+		284C5BAE28A0A64D008AA9AF /* Repeating */ = {
+			isa = PBXGroup;
+			children = (
+				284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */,
+				284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */,
+				284E2BEE288CD7F000C108D5 /* RepeatingRepeatForever.swift */,
+				284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */,
+				284E2BF2288CDA9000C108D5 /* RepeatingWithDelay.swift */,
+			);
+			path = Repeating;
+			sourceTree = "<group>";
+		};
+		284C5BAF28A0A663008AA9AF /* Scope */ = {
+			isa = PBXGroup;
+			children = (
+				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
+				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
+				28778672288E3A430089D12A /* ScopeSequenceOnSingleView.swift */,
+				28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */,
+				2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */,
+				286321162892142100BEFA22 /* ScopeDifferentAnimations.swift */,
+				28632118289219DE00BEFA22 /* ScopeNoAnimation.swift */,
+				283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */,
+				283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */,
+				289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */,
+				289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */,
+				289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */,
+			);
+			path = Scope;
+			sourceTree = "<group>";
+		};
+		284C5BB028A0A69A008AA9AF /* Duration */ = {
+			isa = PBXGroup;
+			children = (
+				28871735288B51970060AA1D /* DurationParameter.swift */,
+				28871737288B5B370060AA1D /* DurationLongExample.swift */,
+			);
+			path = Duration;
+			sourceTree = "<group>";
+		};
+		284C5BB128A0A6A7008AA9AF /* Delay */ = {
+			isa = PBXGroup;
+			children = (
+				28FDF665288B5DBB00A88420 /* DelayAnimations.swift */,
+				28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */,
+			);
+			path = Delay;
+			sourceTree = "<group>";
+		};
+		284C5BB228A0A6CF008AA9AF /* Animate */ = {
+			isa = PBXGroup;
+			children = (
+				2873A687287FB1E700401F74 /* OffsetAnimation.swift */,
+				2873A689287FBCD100401F74 /* AnimateAlignment.swift */,
+				2873A68B2880DA6100401F74 /* AnimateGeometryReader.swift */,
+				289CFBBC2880E449006A4897 /* AnimateOpacity.swift */,
+				2873A685287D6B5500401F74 /* Animate_Huerotation.swift */,
+				289CFBBE288103AF006A4897 /* AnimateRotationEffect.swift */,
+				289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */,
+				2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */,
+				28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */,
+				286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */,
+				286D5BF82882319700736013 /* AnimateRoundedCorners.swift */,
+				286D5BFA288233CD00736013 /* AnimateTextSize.swift */,
+				286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */,
+				286D5BFE2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift */,
+				284D9EFF2882613500D17F13 /* AnimateRectangle.swift */,
+				286D5C0028825CEA00736013 /* AnimateTrim.swift */,
+			);
+			path = Animate;
+			sourceTree = "<group>";
+		};
 		2873A669287B9B6700401F74 = {
 			isa = PBXGroup;
 			children = (
@@ -208,85 +342,23 @@
 			isa = PBXGroup;
 			children = (
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
-				284C5BA628A0794F008AA9AF /* TransitionSlide.swift */,
-				284C5BA228A07839008AA9AF /* TransitionOpacity.swift */,
-				284C5BA428A078D9008AA9AF /* TransitionScale.swift */,
+				284C5BB228A0A6CF008AA9AF /* Animate */,
+				284C5BAF28A0A663008AA9AF /* Scope */,
+				284C5BAE28A0A64D008AA9AF /* Repeating */,
+				284C5BAD28A0A629008AA9AF /* Interpolating */,
+				284C5BAC28A0A5F5008AA9AF /* Spring */,
+				284C5BAB28A0A5B5008AA9AF /* Trigger */,
+				284C5BAA28A0A574008AA9AF /* Transition */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
-				2873A687287FB1E700401F74 /* OffsetAnimation.swift */,
-				2873A689287FBCD100401F74 /* AnimateAlignment.swift */,
-				2873A68B2880DA6100401F74 /* AnimateGeometryReader.swift */,
-				289CFBBC2880E449006A4897 /* AnimateOpacity.swift */,
-				2873A685287D6B5500401F74 /* Animate_Huerotation.swift */,
-				289CFBBE288103AF006A4897 /* AnimateRotationEffect.swift */,
-				289CFBC02881074C006A4897 /* AnimateRotationAnchor.swift */,
-				2853D80D288149F900E87B87 /* AnimateSizeFrame.swift */,
-				28CD4FCA2882158500CE7415 /* AnimateSizeScaleEffect.swift */,
-				286D5BF628822E4300736013 /* AnimateScaleEffectAnchors.swift */,
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
-				286D5BF82882319700736013 /* AnimateRoundedCorners.swift */,
-				286D5BFA288233CD00736013 /* AnimateTextSize.swift */,
-				286D5BFC2882355A00736013 /* AnimateTextSizeScaleEffect.swift */,
-				286D5BFE2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift */,
-				284D9EFF2882613500D17F13 /* AnimateRectangle.swift */,
-				2880118E28863E180055CD0C /* TriggerSlider.swift */,
-				285817BA2887979500DB0187 /* TriggerOnDisappear.swift */,
-				285817B82886557400DB0187 /* TriggerOnAppear.swift */,
-				2880119028863FE40055CD0C /* TriggerStepper.swift */,
-				28801192288646850055CD0C /* TriggerToggle.swift */,
-				286D5C0028825CEA00736013 /* AnimateTrim.swift */,
-				2890D9EB2884F91D0089BA20 /* TriggerButton.swift */,
-				289B5366288500AB003AE3D7 /* TriggerSegmentedControl.swift */,
-				2887170D2888C90E0060AA1D /* TriggerGestureDrag.swift */,
-				2887170F2888D3010060AA1D /* TriggerGestureLongPress.swift */,
-				288717112888D51B0060AA1D /* TriggerGestureTap.swift */,
-				288717132888D74E0060AA1D /* TriggerGestureMagnification.swift */,
-				288717152888DD7B0060AA1D /* TriggerGestureRotation.swift */,
-				288717172888F0FA0060AA1D /* TriggerScrollLocation.swift */,
-				28871733288A35FE0060AA1D /* TriggersShowPopup.swift */,
-				28871735288B51970060AA1D /* DurationParameter.swift */,
-				28871737288B5B370060AA1D /* DurationLongExample.swift */,
-				28FDF665288B5DBB00A88420 /* DelayAnimations.swift */,
-				28FDF667288B624C00A88420 /* DelaySequenceAnimations.swift */,
-				284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */,
-				284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */,
-				284E2BEE288CD7F000C108D5 /* RepeatingRepeatForever.swift */,
-				284E2BF0288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift */,
-				284E2BF2288CDA9000C108D5 /* RepeatingWithDelay.swift */,
-				28778672288E3A430089D12A /* ScopeSequenceOnSingleView.swift */,
-				28855E8D288E3E8200DEE800 /* ScopeParentAndChildren.swift */,
-				2863211428920FAC00BEFA22 /* ScopeChangeSizeInParent.swift */,
-				286321162892142100BEFA22 /* ScopeDifferentAnimations.swift */,
-				28632118289219DE00BEFA22 /* ScopeNoAnimation.swift */,
-				283FCB4C28921E56005BD689 /* ScopeWithAnimation.swift */,
-				283FCB4E289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift */,
-				289EEC6B289225410083760D /* ScopeWithAnimationOnSingleView.swift */,
-				289EEC6D289230A40083760D /* ScopeWithAnimationMultipleViews.swift */,
-				289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */,
+				284C5BB028A0A69A008AA9AF /* Duration */,
+				284C5BB128A0A6A7008AA9AF /* Delay */,
 				2873901C289494DB00F24BEA /* SpeedIntro.swift */,
 				28BC1F0A28949AC4002DA52D /* ValueIntroduction.swift */,
 				28BC1F0C28949CE8002DA52D /* ValueShowHideExample.swift */,
-				28D832002895220C0090E4CF /* SpringIntro.swift */,
-				286DC4C82895F4E500BA3553 /* SpringDampen.swift */,
-				286DC4CA2895F74E00BA3553 /* SpringResponse.swift */,
-				286DC4CC289607AD00BA3553 /* SpringBlendDuration.swift */,
 				28B0B4B22897561400A99245 /* InteractiveComparison.swift */,
 				28B0B4B4289758C800A99245 /* InteractivePopuo.swift */,
-				28555AFF289B584E00E5EB2D /* InterpolartingStiffness.swift */,
-				2856F5B1289F46FE00F20686 /* InterpolatingOverlapping.swift */,
-				283441D9289F595000923E6C /* SpringOptionsSpeed.swift */,
-				283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */,
-				2856F5B3289F4A9400F20686 /* SpringOptionsDelay.swift */,
-				283441DD289F9F4800923E6C /* TransitionIntro.swift */,
-				284C5B9E28A0764E008AA9AF /* TransitionMove.swift */,
-				284C5BA028A077B7008AA9AF /* TransitionOffset.swift */,
-				28B9330A289C97DD006F7268 /* InterpolatingMass.swift */,
-				28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */,
-				28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */,
-				28555B01289B5B0C00E5EB2D /* InterpolatingDamping.swift */,
-				28555B03289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift */,
 				285551B22894A7F00028CB07 /* TernaryCondition.swift */,
-				2880B9E228936479006AE531 /* ScopeNoWithAnimation.swift */,
-				2880B9E428936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift */,
 				2873A679287B9B6900401F74 /* Assets.xcassets */,
 				2873A67B287B9B6900401F74 /* Preview Content */,
 			);
