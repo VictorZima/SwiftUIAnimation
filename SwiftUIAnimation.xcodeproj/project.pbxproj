@@ -18,6 +18,7 @@
 		284C5BA528A078D9008AA9AF /* TransitionScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C5BA428A078D9008AA9AF /* TransitionScale.swift */; };
 		284C5BA728A0794F008AA9AF /* TransitionSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C5BA628A0794F008AA9AF /* TransitionSlide.swift */; };
 		284C5BB428A0A81A008AA9AF /* CombiningIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C5BB328A0A81A008AA9AF /* CombiningIntro.swift */; };
+		284C5BB728A0A9B2008AA9AF /* CombiningMoveAndScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284C5BB628A0A9B2008AA9AF /* CombiningMoveAndScale.swift */; };
 		284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284D9EFF2882613500D17F13 /* AnimateRectangle.swift */; };
 		284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */; };
 		284E2BED288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */; };
@@ -104,6 +105,7 @@
 		284C5BA428A078D9008AA9AF /* TransitionScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionScale.swift; sourceTree = "<group>"; };
 		284C5BA628A0794F008AA9AF /* TransitionSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionSlide.swift; sourceTree = "<group>"; };
 		284C5BB328A0A81A008AA9AF /* CombiningIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningIntro.swift; sourceTree = "<group>"; };
+		284C5BB628A0A9B2008AA9AF /* CombiningMoveAndScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombiningMoveAndScale.swift; sourceTree = "<group>"; };
 		284D9EFF2882613500D17F13 /* AnimateRectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateRectangle.swift; sourceTree = "<group>"; };
 		284E2BEA288CD2EB00C108D5 /* RepeatingRepeatCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCount.swift; sourceTree = "<group>"; };
 		284E2BEC288CD6FB00C108D5 /* RepeatingRepeatCountAutoReverses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingRepeatCountAutoReverses.swift; sourceTree = "<group>"; };
@@ -328,6 +330,7 @@
 			isa = PBXGroup;
 			children = (
 				284C5BB328A0A81A008AA9AF /* CombiningIntro.swift */,
+				284C5BB628A0A9B2008AA9AF /* CombiningMoveAndScale.swift */,
 			);
 			path = Combining;
 			sourceTree = "<group>";
@@ -510,6 +513,7 @@
 				284E2BF1288CD91600C108D5 /* RepeatingRepeatForeverAutoReverses.swift in Sources */,
 				289CFBBF288103AF006A4897 /* AnimateRotationEffect.swift in Sources */,
 				286DC4CB2895F74E00BA3553 /* SpringResponse.swift in Sources */,
+				284C5BB728A0A9B2008AA9AF /* CombiningMoveAndScale.swift in Sources */,
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
 				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
