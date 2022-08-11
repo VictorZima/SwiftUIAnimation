@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2813049E28A4833F00A9CC46 /* ZStackProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813049D28A4833F00A9CC46 /* ZStackProblem.swift */; };
 		281304A128A486C600A9CC46 /* ZStackSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A028A486C600A9CC46 /* ZStackSolution.swift */; };
+		281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A228A48C5100A9CC46 /* IfElseProblem.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -99,6 +100,7 @@
 /* Begin PBXFileReference section */
 		2813049D28A4833F00A9CC46 /* ZStackProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackProblem.swift; sourceTree = "<group>"; };
 		281304A028A486C600A9CC46 /* ZStackSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackSolution.swift; sourceTree = "<group>"; };
+		281304A228A48C5100A9CC46 /* IfElseProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseProblem.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -205,6 +207,14 @@
 				281304A028A486C600A9CC46 /* ZStackSolution.swift */,
 			);
 			path = WorkingWithLayers;
+			sourceTree = "<group>";
+		};
+		281304A428A48C5C00A9CC46 /* IfElse */ = {
+			isa = PBXGroup;
+			children = (
+				281304A228A48C5100A9CC46 /* IfElseProblem.swift */,
+			);
+			path = IfElse;
 			sourceTree = "<group>";
 		};
 		284C5BAA28A0A574008AA9AF /* Transition */ = {
@@ -354,7 +364,6 @@
 		2873A669287B9B6700401F74 = {
 			isa = PBXGroup;
 			children = (
-				2813049F28A4835100A9CC46 /* WorkingWithLayers */,
 				2873A674287B9B6700401F74 /* SwiftUIAnimation */,
 				2873A673287B9B6700401F74 /* Products */,
 			);
@@ -374,6 +383,8 @@
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
+				281304A428A48C5C00A9CC46 /* IfElse */,
+				2813049F28A4835100A9CC46 /* WorkingWithLayers */,
 				284C5BB528A0A92A008AA9AF /* Combining */,
 				284C5BB228A0A6CF008AA9AF /* Animate */,
 				284C5BAF28A0A663008AA9AF /* Scope */,
@@ -557,6 +568,7 @@
 				286321172892142100BEFA22 /* ScopeDifferentAnimations.swift in Sources */,
 				284C5BB428A0A81A008AA9AF /* CombiningIntro.swift in Sources */,
 				2856F5B2289F46FE00F20686 /* InterpolatingOverlapping.swift in Sources */,
+				281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */,
 				289EEC6E289230A40083760D /* ScopeWithAnimationMultipleViews.swift in Sources */,
 				283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */,
 			);
