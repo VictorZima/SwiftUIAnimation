@@ -11,6 +11,7 @@
 		281304A128A486C600A9CC46 /* ZStackSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A028A486C600A9CC46 /* ZStackSolution.swift */; };
 		281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A228A48C5100A9CC46 /* IfElseProblem.swift */; };
 		281304A628A48F7500A9CC46 /* IfElseSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A528A48F7500A9CC46 /* IfElseSolution.swift */; };
+		281304A828A4A2A600A9CC46 /* IfElseSolutionRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -103,6 +104,7 @@
 		281304A028A486C600A9CC46 /* ZStackSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackSolution.swift; sourceTree = "<group>"; };
 		281304A228A48C5100A9CC46 /* IfElseProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseProblem.swift; sourceTree = "<group>"; };
 		281304A528A48F7500A9CC46 /* IfElseSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseSolution.swift; sourceTree = "<group>"; };
+		281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseSolutionRefactor.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 			children = (
 				281304A228A48C5100A9CC46 /* IfElseProblem.swift */,
 				281304A528A48F7500A9CC46 /* IfElseSolution.swift */,
+				281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */,
 			);
 			path = IfElse;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				289EEC6C289225410083760D /* ScopeWithAnimationOnSingleView.swift in Sources */,
 				286D5BF728822E4300736013 /* AnimateScaleEffectAnchors.swift in Sources */,
 				286321172892142100BEFA22 /* ScopeDifferentAnimations.swift in Sources */,
+				281304A828A4A2A600A9CC46 /* IfElseSolutionRefactor.swift in Sources */,
 				284C5BB428A0A81A008AA9AF /* CombiningIntro.swift in Sources */,
 				2856F5B2289F46FE00F20686 /* InterpolatingOverlapping.swift in Sources */,
 				281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */,
