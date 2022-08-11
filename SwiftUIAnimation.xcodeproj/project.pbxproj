@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2813049E28A4833F00A9CC46 /* ZStackProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813049D28A4833F00A9CC46 /* ZStackProblem.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -95,6 +96,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2813049D28A4833F00A9CC46 /* ZStackProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackProblem.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -194,6 +196,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2813049F28A4835100A9CC46 /* WorkingWithLayers */ = {
+			isa = PBXGroup;
+			children = (
+				2813049D28A4833F00A9CC46 /* ZStackProblem.swift */,
+			);
+			path = WorkingWithLayers;
+			sourceTree = "<group>";
+		};
 		284C5BAA28A0A574008AA9AF /* Transition */ = {
 			isa = PBXGroup;
 			children = (
@@ -341,6 +351,7 @@
 		2873A669287B9B6700401F74 = {
 			isa = PBXGroup;
 			children = (
+				2813049F28A4835100A9CC46 /* WorkingWithLayers */,
 				2873A674287B9B6700401F74 /* SwiftUIAnimation */,
 				2873A673287B9B6700401F74 /* Products */,
 			);
@@ -357,7 +368,9 @@
 		2873A674287B9B6700401F74 /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
+				2873A677287B9B6700401F74 /* ContentView.swift */,
 				284C5BB528A0A92A008AA9AF /* Combining */,
 				284C5BB228A0A6CF008AA9AF /* Animate */,
 				284C5BAF28A0A663008AA9AF /* Scope */,
@@ -366,8 +379,6 @@
 				284C5BAC28A0A5F5008AA9AF /* Spring */,
 				284C5BAB28A0A5B5008AA9AF /* Trigger */,
 				284C5BAA28A0A574008AA9AF /* Transition */,
-				2873A677287B9B6700401F74 /* ContentView.swift */,
-				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				284C5BB028A0A69A008AA9AF /* Duration */,
 				284C5BB128A0A6A7008AA9AF /* Delay */,
 				2873901C289494DB00F24BEA /* SpeedIntro.swift */,
@@ -519,6 +530,7 @@
 				284C5BB728A0A9B2008AA9AF /* CombiningMoveAndScale.swift in Sources */,
 				285817B92886557400DB0187 /* TriggerOnAppear.swift in Sources */,
 				2887170E2888C90E0060AA1D /* TriggerGestureDrag.swift in Sources */,
+				2813049E28A4833F00A9CC46 /* ZStackProblem.swift in Sources */,
 				2873A676287B9B6700401F74 /* SwiftUIAnimationApp.swift in Sources */,
 				2880B9E328936479006AE531 /* ScopeNoWithAnimation.swift in Sources */,
 				284E2BEB288CD2EB00C108D5 /* RepeatingRepeatCount.swift in Sources */,
