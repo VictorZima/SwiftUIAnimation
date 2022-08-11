@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIAnimationApp: App {
     var body: some Scene {
         WindowGroup {
-            IfElseSolutionRefactor()
+            ShiftingViewsZStackSolution()
         }
     }
 }

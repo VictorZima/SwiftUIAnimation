@@ -12,6 +12,11 @@
 		281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A228A48C5100A9CC46 /* IfElseProblem.swift */; };
 		281304A628A48F7500A9CC46 /* IfElseSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A528A48F7500A9CC46 /* IfElseSolution.swift */; };
 		281304A828A4A2A600A9CC46 /* IfElseSolutionRefactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */; };
+		281304AC28A4A46400A9CC46 /* ShiftingViewsProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304AB28A4A46400A9CC46 /* ShiftingViewsProblem.swift */; };
+		281304AF28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304AE28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift */; };
+		281304B128A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B028A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift */; };
+		281304B328A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B228A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift */; };
+		281304B528A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -105,6 +110,11 @@
 		281304A228A48C5100A9CC46 /* IfElseProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseProblem.swift; sourceTree = "<group>"; };
 		281304A528A48F7500A9CC46 /* IfElseSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseSolution.swift; sourceTree = "<group>"; };
 		281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseSolutionRefactor.swift; sourceTree = "<group>"; };
+		281304AB28A4A46400A9CC46 /* ShiftingViewsProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsProblem.swift; sourceTree = "<group>"; };
+		281304AE28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsElseSolution.swift; sourceTree = "<group>"; };
+		281304B028A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsSpacerSolution.swift; sourceTree = "<group>"; };
+		281304B228A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsAnimationSolution.swift; sourceTree = "<group>"; };
+		281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsZStackSolution.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -221,6 +231,18 @@
 				281304A728A4A2A600A9CC46 /* IfElseSolutionRefactor.swift */,
 			);
 			path = IfElse;
+			sourceTree = "<group>";
+		};
+		281304AD28A4A4EA00A9CC46 /* TransitionsAndSpace */ = {
+			isa = PBXGroup;
+			children = (
+				281304AB28A4A46400A9CC46 /* ShiftingViewsProblem.swift */,
+				281304AE28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift */,
+				281304B028A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift */,
+				281304B228A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift */,
+				281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */,
+			);
+			path = TransitionsAndSpace;
 			sourceTree = "<group>";
 		};
 		284C5BAA28A0A574008AA9AF /* Transition */ = {
@@ -389,6 +411,7 @@
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
+				281304AD28A4A4EA00A9CC46 /* TransitionsAndSpace */,
 				281304A428A48C5C00A9CC46 /* IfElse */,
 				2813049F28A4835100A9CC46 /* WorkingWithLayers */,
 				284C5BB528A0A92A008AA9AF /* Combining */,
@@ -509,6 +532,7 @@
 				284D9F002882613500D17F13 /* AnimateRectangle.swift in Sources */,
 				289B5367288500AB003AE3D7 /* TriggerSegmentedControl.swift in Sources */,
 				283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */,
+				281304B328A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift in Sources */,
 				28CD4FCB2882158500CE7415 /* AnimateSizeScaleEffect.swift in Sources */,
 				28871736288B51970060AA1D /* DurationParameter.swift in Sources */,
 				288717142888D74E0060AA1D /* TriggerGestureMagnification.swift in Sources */,
@@ -526,6 +550,7 @@
 				288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */,
 				28B0B4B32897561400A99245 /* InteractiveComparison.swift in Sources */,
 				284E2BF3288CDA9000C108D5 /* RepeatingWithDelay.swift in Sources */,
+				281304AC28A4A46400A9CC46 /* ShiftingViewsProblem.swift in Sources */,
 				284C5B9F28A0764E008AA9AF /* TransitionMove.swift in Sources */,
 				284C5BA128A077B7008AA9AF /* TransitionOffset.swift in Sources */,
 				2873A688287FB1E700401F74 /* OffsetAnimation.swift in Sources */,
@@ -561,7 +586,10 @@
 				284C5BB928A0AEDD008AA9AF /* CombiningThreeEffects.swift in Sources */,
 				28778673288E3A430089D12A /* ScopeSequenceOnSingleView.swift in Sources */,
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
+				281304B528A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift in Sources */,
 				289EEC70289359070083760D /* ScopeWithAnimationSequencing.swift in Sources */,
+				281304AF28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift in Sources */,
+				281304B128A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift in Sources */,
 				286D5BFF2882394C00736013 /* AnimateTextSizeScaleEffectSolution.swift in Sources */,
 				28801193288646850055CD0C /* TriggerToggle.swift in Sources */,
 				28D832012895220C0090E4CF /* SpringIntro.swift in Sources */,
