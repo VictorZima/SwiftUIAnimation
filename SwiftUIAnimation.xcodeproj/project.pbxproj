@@ -10,6 +10,7 @@
 		2813049E28A4833F00A9CC46 /* ZStackProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2813049D28A4833F00A9CC46 /* ZStackProblem.swift */; };
 		281304A128A486C600A9CC46 /* ZStackSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A028A486C600A9CC46 /* ZStackSolution.swift */; };
 		281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A228A48C5100A9CC46 /* IfElseProblem.swift */; };
+		281304A628A48F7500A9CC46 /* IfElseSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304A528A48F7500A9CC46 /* IfElseSolution.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -101,6 +102,7 @@
 		2813049D28A4833F00A9CC46 /* ZStackProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackProblem.swift; sourceTree = "<group>"; };
 		281304A028A486C600A9CC46 /* ZStackSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackSolution.swift; sourceTree = "<group>"; };
 		281304A228A48C5100A9CC46 /* IfElseProblem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseProblem.swift; sourceTree = "<group>"; };
+		281304A528A48F7500A9CC46 /* IfElseSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfElseSolution.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				281304A228A48C5100A9CC46 /* IfElseProblem.swift */,
+				281304A528A48F7500A9CC46 /* IfElseSolution.swift */,
 			);
 			path = IfElse;
 			sourceTree = "<group>";
@@ -529,6 +532,7 @@
 				2853D80E288149F900E87B87 /* AnimateSizeFrame.swift in Sources */,
 				2880B9E528936B03006AE531 /* ScopeWithAnimationSequencingSameView.swift in Sources */,
 				28555B00289B584E00E5EB2D /* InterpolartingStiffness.swift in Sources */,
+				281304A628A48F7500A9CC46 /* IfElseSolution.swift in Sources */,
 				286D5BF92882319700736013 /* AnimateRoundedCorners.swift in Sources */,
 				28555B04289B5DD600E5EB2D /* InterpolatingCompareStiffnessDamping.swift in Sources */,
 				284C5BA328A07839008AA9AF /* TransitionOpacity.swift in Sources */,
