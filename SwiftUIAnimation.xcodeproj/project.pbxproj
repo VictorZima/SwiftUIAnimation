@@ -17,6 +17,7 @@
 		281304B128A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B028A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift */; };
 		281304B328A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B228A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift */; };
 		281304B528A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */; };
+		281304D228A5D86300A9CC46 /* AsymmetricIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281304D128A5D86300A9CC46 /* AsymmetricIntro.swift */; };
 		283441DA289F595000923E6C /* SpringOptionsSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441D9289F595000923E6C /* SpringOptionsSpeed.swift */; };
 		283441DC289F5B1700923E6C /* SpringOptionsRepeating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */; };
 		283441DE289F9F4800923E6C /* TransitionIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283441DD289F9F4800923E6C /* TransitionIntro.swift */; };
@@ -115,6 +116,7 @@
 		281304B028A4A78D00A9CC46 /* ShiftingViewsSpacerSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsSpacerSolution.swift; sourceTree = "<group>"; };
 		281304B228A4A88A00A9CC46 /* ShiftingViewsAnimationSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsAnimationSolution.swift; sourceTree = "<group>"; };
 		281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftingViewsZStackSolution.swift; sourceTree = "<group>"; };
+		281304D128A5D86300A9CC46 /* AsymmetricIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsymmetricIntro.swift; sourceTree = "<group>"; };
 		283441D9289F595000923E6C /* SpringOptionsSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsSpeed.swift; sourceTree = "<group>"; };
 		283441DB289F5B1700923E6C /* SpringOptionsRepeating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringOptionsRepeating.swift; sourceTree = "<group>"; };
 		283441DD289F9F4800923E6C /* TransitionIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionIntro.swift; sourceTree = "<group>"; };
@@ -243,6 +245,14 @@
 				281304B428A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift */,
 			);
 			path = TransitionsAndSpace;
+			sourceTree = "<group>";
+		};
+		281304D028A5D83200A9CC46 /* Asymmetric Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				281304D128A5D86300A9CC46 /* AsymmetricIntro.swift */,
+			);
+			path = "Asymmetric Transitions";
 			sourceTree = "<group>";
 		};
 		284C5BAA28A0A574008AA9AF /* Transition */ = {
@@ -411,6 +421,7 @@
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
+				281304D028A5D83200A9CC46 /* Asymmetric Transitions */,
 				281304AD28A4A4EA00A9CC46 /* TransitionsAndSpace */,
 				281304A428A48C5C00A9CC46 /* IfElse */,
 				2813049F28A4835100A9CC46 /* WorkingWithLayers */,
@@ -546,6 +557,7 @@
 				283FCB4F289220EF005BD689 /* ScopeWithAnimationCustomAnimation.swift in Sources */,
 				28871734288A35FE0060AA1D /* TriggersShowPopup.swift in Sources */,
 				286DC4C92895F4E500BA3553 /* SpringDampen.swift in Sources */,
+				281304D228A5D86300A9CC46 /* AsymmetricIntro.swift in Sources */,
 				28555B02289B5B0C00E5EB2D /* InterpolatingDamping.swift in Sources */,
 				288717102888D3010060AA1D /* TriggerGestureLongPress.swift in Sources */,
 				28B0B4B32897561400A99245 /* InteractiveComparison.swift in Sources */,
