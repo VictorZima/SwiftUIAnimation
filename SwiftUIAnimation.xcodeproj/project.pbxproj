@@ -99,6 +99,7 @@
 		28B88FC728A7307500EA6AAD /* CirveTimingCurveMofifierAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B88FC628A7307500EA6AAD /* CirveTimingCurveMofifierAnother.swift */; };
 		28B88FC928A7367100EA6AAD /* CurveCurveBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B88FC828A7367100EA6AAD /* CurveCurveBelow.swift */; };
 		28B88FCB28A73A3700EA6AAD /* CurveCurveAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B88FCA28A73A3700EA6AAD /* CurveCurveAbove.swift */; };
+		28B88FCD28A73BA700EA6AAD /* CurveCurveBelowThenAbove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B88FCC28A73BA700EA6AAD /* CurveCurveBelowThenAbove.swift */; };
 		28B9330B289C97DD006F7268 /* InterpolatingMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330A289C97DD006F7268 /* InterpolatingMass.swift */; };
 		28B9330D289C99EA006F7268 /* InterpolatingInitialVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */; };
 		28B9330F289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */; };
@@ -204,6 +205,7 @@
 		28B88FC628A7307500EA6AAD /* CirveTimingCurveMofifierAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirveTimingCurveMofifierAnother.swift; sourceTree = "<group>"; };
 		28B88FC828A7367100EA6AAD /* CurveCurveBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveCurveBelow.swift; sourceTree = "<group>"; };
 		28B88FCA28A73A3700EA6AAD /* CurveCurveAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveCurveAbove.swift; sourceTree = "<group>"; };
+		28B88FCC28A73BA700EA6AAD /* CurveCurveBelowThenAbove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveCurveBelowThenAbove.swift; sourceTree = "<group>"; };
 		28B9330A289C97DD006F7268 /* InterpolatingMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingMass.swift; sourceTree = "<group>"; };
 		28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocity.swift; sourceTree = "<group>"; };
 		28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocityNegative.swift; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				28B88FC628A7307500EA6AAD /* CirveTimingCurveMofifierAnother.swift */,
 				28B88FC828A7367100EA6AAD /* CurveCurveBelow.swift */,
 				28B88FCA28A73A3700EA6AAD /* CurveCurveAbove.swift */,
+				28B88FCC28A73BA700EA6AAD /* CurveCurveBelowThenAbove.swift */,
 			);
 			path = CustomTimingCurve;
 			sourceTree = "<group>";
@@ -624,6 +627,7 @@
 				284C5BB928A0AEDD008AA9AF /* CombiningThreeEffects.swift in Sources */,
 				28778673288E3A430089D12A /* ScopeSequenceOnSingleView.swift in Sources */,
 				28FDF666288B5DBB00A88420 /* DelayAnimations.swift in Sources */,
+				28B88FCD28A73BA700EA6AAD /* CurveCurveBelowThenAbove.swift in Sources */,
 				281304B528A4A8FF00A9CC46 /* ShiftingViewsZStackSolution.swift in Sources */,
 				289EEC70289359070083760D /* ScopeWithAnimationSequencing.swift in Sources */,
 				281304AF28A4A6F500A9CC46 /* ShiftingViewsElseSolution.swift in Sources */,
