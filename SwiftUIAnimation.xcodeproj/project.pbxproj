@@ -95,6 +95,7 @@
 		289EEC70289359070083760D /* ScopeWithAnimationSequencing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */; };
 		28B0B4B32897561400A99245 /* InteractiveComparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0B4B22897561400A99245 /* InteractiveComparison.swift */; };
 		28B0B4B5289758C800A99245 /* InteractivePopuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B0B4B4289758C800A99245 /* InteractivePopuo.swift */; };
+		28B88FC428A72D6900EA6AAD /* CurveTimingCurveModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B88FC328A72D6900EA6AAD /* CurveTimingCurveModifier.swift */; };
 		28B9330B289C97DD006F7268 /* InterpolatingMass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330A289C97DD006F7268 /* InterpolatingMass.swift */; };
 		28B9330D289C99EA006F7268 /* InterpolatingInitialVelocity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */; };
 		28B9330F289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */; };
@@ -196,6 +197,7 @@
 		289EEC6F289359070083760D /* ScopeWithAnimationSequencing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeWithAnimationSequencing.swift; sourceTree = "<group>"; };
 		28B0B4B22897561400A99245 /* InteractiveComparison.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveComparison.swift; sourceTree = "<group>"; };
 		28B0B4B4289758C800A99245 /* InteractivePopuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractivePopuo.swift; sourceTree = "<group>"; };
+		28B88FC328A72D6900EA6AAD /* CurveTimingCurveModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveTimingCurveModifier.swift; sourceTree = "<group>"; };
 		28B9330A289C97DD006F7268 /* InterpolatingMass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingMass.swift; sourceTree = "<group>"; };
 		28B9330C289C99EA006F7268 /* InterpolatingInitialVelocity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocity.swift; sourceTree = "<group>"; };
 		28B9330E289C9BAD006F7268 /* InterpolatingInitialVelocityNegative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpolatingInitialVelocityNegative.swift; sourceTree = "<group>"; };
@@ -424,6 +426,7 @@
 				2873A683287BC6CF00401F74 /* Text+Extention.swift */,
 				2873A675287B9B6700401F74 /* SwiftUIAnimationApp.swift */,
 				2873A677287B9B6700401F74 /* ContentView.swift */,
+				28B88FC528A72D6F00EA6AAD /* CustomTimingCurve */,
 				281304D028A5D83200A9CC46 /* Asymmetric Transitions */,
 				281304AD28A4A4EA00A9CC46 /* TransitionsAndSpace */,
 				281304A428A48C5C00A9CC46 /* IfElse */,
@@ -456,6 +459,14 @@
 				2873A67C287B9B6900401F74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28B88FC528A72D6F00EA6AAD /* CustomTimingCurve */ = {
+			isa = PBXGroup;
+			children = (
+				28B88FC328A72D6900EA6AAD /* CurveTimingCurveModifier.swift */,
+			);
+			path = CustomTimingCurve;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -618,6 +629,7 @@
 				286321172892142100BEFA22 /* ScopeDifferentAnimations.swift in Sources */,
 				281304A828A4A2A600A9CC46 /* IfElseSolutionRefactor.swift in Sources */,
 				284C5BB428A0A81A008AA9AF /* CombiningIntro.swift in Sources */,
+				28B88FC428A72D6900EA6AAD /* CurveTimingCurveModifier.swift in Sources */,
 				2856F5B2289F46FE00F20686 /* InterpolatingOverlapping.swift in Sources */,
 				281304A328A48C5100A9CC46 /* IfElseProblem.swift in Sources */,
 				281304D428A5E88600A9CC46 /* AsymmetricCombiningEffects.swift in Sources */,
