@@ -1,5 +1,5 @@
 //
-//  CurveCurveBelow.swift
+//  CurveCurveAbove.swift
 //  SwiftUIAnimation
 //
 //  Created by VictorZima on 13/08/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CurveCurveBelow: View {
+struct CurveCurveAbove: View {
     @State private var show = false
     
     var body: some View {
@@ -18,7 +18,7 @@ struct CurveCurveBelow: View {
             VStack(spacing: 10) {
                 TitleText("Custom Timing Curve")
                     .foregroundColor(.yellow)
-                SubtitleText("Curve Below")
+                SubtitleText("Curve Above")
                 Spacer()
                 
                 Button("Send") {
@@ -39,7 +39,7 @@ struct CurveCurveBelow: View {
                         .frame(width: 200, height: 200)
                     HStack {
                         Button("Yes, send now") {
-                            withAnimation(.timingCurve(0, -0.3, 1, 0, duration: 0.6)) {
+                            withAnimation(.timingCurve(0, 0, 0, 1.5, duration: 0.8)) {
                                 self.show = false
                             }
                         }
@@ -60,8 +60,8 @@ struct CurveCurveBelow: View {
     }
 }
 
-struct CurveCurveBelow_Previews: PreviewProvider {
+struct CurveCurveAbove_Previews: PreviewProvider {
     static var previews: some View {
-        CurveCurveBelow()
+        CurveCurveAbove()
     }
 }
